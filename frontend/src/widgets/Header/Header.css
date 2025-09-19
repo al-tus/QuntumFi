@@ -1,0 +1,26 @@
+header {
+    background-color: #1e1e1e;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    padding: 15px 35px;
+    font-size: 20px;
+    position: relative;
+}
+
+header a{color: #fff}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+nav li{
+    padding-right: 34px;
+}
+
+nav li:last-child {
+    padding-right: 34px;
+}

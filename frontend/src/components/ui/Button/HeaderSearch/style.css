@@ -1,0 +1,50 @@
+.sb-block button{
+    cursor: pointer;
+}
+
+.sb-block .search-control{
+    position: absolute;
+    top: 110%;
+    background-color: #1e1e1e;
+    font-size: 14px;
+}
+
+.sb-block .search-group{
+    padding: 16px 16px 8px 16px;
+}
+
+.search-group .inputBox{
+    height: 55px;
+    border: 1px #707985 solid;
+    padding: 0px 15px;
+}
+
+.search-group .inputBox svg{
+    transform: scale(0.7);
+    fill: #474d57;
+}
+
+.search-group .inputBox input::placeholder{
+    color: #707985;
+}
+
+.search-group p {
+    color: var(--main-purpl);
+    cursor: pointer;
+}
+
+
+
+.arrow-swiper-section svg{
+    width: 14px;
+    height: 14px;
+    stroke: #707985;
+}
+
+.arrow-swiper-section div:hover svg{
+    stroke: #fff;
+}
+
+.arrow-swiper-section div:hover{
+    background-color: #2b3139;
+}
